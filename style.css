@@ -721,4 +721,37 @@ button {
   .texto-girar {
     top: 212px;
   }
+  /* GIF adaptable a computadora y celular */
+#imagenPremio {
+  display: block;
+  width: auto;
+  max-width: 100%;
+  height: auto;
+  max-height: 55vh;
+  margin: 15px auto;
+  object-fit: contain;
+  border-radius: 14px;
+}
+
+/* Ajustes específicos para celulares */
+@media (max-width: 600px) {
+  .tarjeta-mensaje {
+    width: 90%;
+    max-height: 90vh;
+    padding: 25px 18px;
+    overflow-y: auto;
+  }
+
+  #imagenPremio {
+    width: 100%;
+    max-width: 280px;
+    max-height: 45vh;
+    object-fit: contain;
+    margin: 12px auto;
+  }
+
+  .mensaje {
+    font-size: 20px;
+  }
+}
 }

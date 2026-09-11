@@ -5,43 +5,43 @@
 const premios = [
   {
     tipo: "texto",
-    texto: "Me encanta que podamos reírnos de las mismas cosas cuando vemos películas o lo que sea es algo simple, pero me gusta demasiado."
+    texto: "Quería hacerte algo diferente por tu cumpleaños, algo que realmente sintiera que fuera para ti. "
   },
   {
     tipo: "texto",
-    texto: "¿Te acuerdas de aquella vez que dormimos en llamada y pusiste música clásica? JAJAJA. No sé por qué, pero ese momento se me quedó guardado. ❤️"
+    texto: "Aunque, pensándolo bien, contigo he vivido varios momentos que quizá parecen simples, pero que para mí significan mucho y me han hecho quererte mucho."
   },
   {
     tipo: "texto",
-    texto: "Tus patacones siguen siendo de los mejores que he probado y espero seguir probándolos por mucho tiempo más."
+    texto: "Como cuando vemos películas y terminamos riéndonos de las mismas cosas o solo poder ver las cosas que te hacen reir a ti, aunque no las entienda, pero es bonito poder conocer eso de ti."
   },
   {
     tipo: "texto",
-    texto: "No necesito hacer nada especial contigo. Simplemente estar juntos me hace sentir demasiado feliz."
+    texto: "O aquella vez que para dormir ponías música clásica lo que no te dije que mientras sonaba su musica tambien escuchaba como roncaba jssjsj un concierto mismo y ni aun asi me molesto para dormir."
   },
   {
     tipo: "texto",
-    texto: "Me sorprende muchísimo que en tan poco tiempo hayas llegado a ser una persona tan importante para mí. Te quiero muchísimo."
+    texto: "Y obviamente no podía olvidarme de tus patacones, porque siguen siendo de los mejores que he probado y espero seguir probándolos por mucho tiempo."
   },
   {
     tipo: "texto",
-    texto: "Ahora que estás lejos me doy cuenta de cuánto me gusta tenerte cerca y poder abrazarlo."
+    texto: "Creo que todo eso me hizo entender que contigo no necesito hacer algo especial para pasarla bien, simplemente estar juntos ya me hace sentir tranquila."
   },
   {
     tipo: "texto",
-    texto: "Extraño todo de ti mi vida y ya quiero volver a verte."
+    texto: "Sin darme cuenta, en muy poco tiempo te convertiste en una persona demasiado importante para mí y sabes quete quiero muchísimo."
   },
   {
     tipo: "texto",
-    texto: "Primero te creo algo y despues te hackeo precioso jsjsj."
+    texto: "Ahora que estás lejos, extraño más de lo que quisiera admitir tenerte cerca, molestarte y poder abrazarte cuando quiera."
   },
   {
     tipo: "texto",
-    texto: "Nunca te he dicho nada de esto, pero espero que entiendas que te amo mucho. ¡FELIZ CUMPLEAÑOS, MI PRECIOSO!"
+    texto: "Por eso decidí hacerte algo bonito antes de hackearte, porque en esta relación debe existir un equilibrio, precioso JSJSJ."
   },
   {
     tipo: "texto",
-    texto: "Te extraño mucho, pero espero que sepas lo mucho que te quiero y se lo demuestro asi."
+    texto: "Pero hablando en serio, aunque no siempre diga estas cosas, espero que sepas cuánto te amo y lo importante que eres para mí. ¡Feliz cumpleaños, mi precioso!❤️"
   },
   {
     tipo: "gif",
@@ -175,8 +175,6 @@ function reproducirSonido(
   oscilador.start();
   oscilador.stop(contexto.currentTime + duracion);
 }
-
-
 /* =====================================================
    GIRAR LA PERILLA
 ===================================================== */

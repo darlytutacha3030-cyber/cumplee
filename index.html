@@ -1,50 +1,33 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
   <meta charset="UTF-8">
-
   <meta
     name="viewport"
     content="width=device-width, initial-scale=1.0"
   >
-
   <title>Feliz cumpleaños MI AMOR 🎂</title>
-
   <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-
   <main class="pagina">
-
     <header class="encabezado">
-
       <p class="subtitulo">
         ALGO ESPECIAL PARA TI
       </p>
-
       <h1>FELIZ CUMPLEAÑOS MI AMOR 🎂</h1>
-
       <p class="instruccion">
         Toca la perilla para recibir un mensaje
       </p>
-
     </header>
-
     <section
       class="maquina"
       aria-label="Máquina de mensajes"
     >
-
       <!-- Parte superior roja -->
-
       <div class="tapa-superior"></div>
-
       <!-- Vitrina de la máquina -->
-
       <div class="vitrina">
-
         <div class="capsulas">
           <span class="capsula capsula-1"></span>
           <span class="capsula capsula-2"></span>
@@ -52,9 +35,7 @@
           <span class="capsula capsula-4"></span>
           <span class="capsula capsula-5"></span>
         </div>
-
         <div class="cartel">
-
           <strong>
             ALGO<br>
             ÚNICO<br>
@@ -62,71 +43,47 @@
             PARA<br>
             TI
           </strong>
-
           <span class="corazon">♥</span>
           <span class="estrella">✦</span>
-
           <div class="sobre">
             <span>💌</span>
           </div>
-
-          <small>MI RARITO</small>
-
+          <small>MI BONITO</small>
         </div>
-
       </div>
-
       <!-- Cuerpo de la máquina -->
-
       <div class="cuerpo">
-
         <div class="precio">
-
           <span>
-            Para nada es algo cursi
+            Para nada es algo cursi 
           </span>
-
           <strong>🐭🐭</strong>
-
         </div>
-
         <div class="etiqueta">
-          GIRA LA PERILLA
+          Para Gigo
         </div>
-
         <!-- Perilla interactiva -->
-
         <button
           id="perilla"
           class="perilla"
           type="button"
           aria-label="Girar la perilla"
         >
-
           <span class="aro-exterior">
-
             <span class="marcas"></span>
-
             <span class="centro-perilla">
               <span class="manija"></span>
             </span>
-
           </span>
-
         </button>
-
         <p class="texto-girar">
           TOCA PARA GIRAR
         </p>
-
         <!-- Ranura de moneda -->
-
         <div class="ranura-moneda">
           <span></span>
         </div>
-
         <!-- Salida de la cápsula -->
-
         <button
           id="salida"
           class="salida"
@@ -134,7 +91,6 @@
           aria-label="Abrir cápsula"
           disabled
         >
-
           <span
             id="capsulaSalida"
             class="capsula-salida"
@@ -145,25 +101,17 @@
         <div class="etiqueta-inferior">
           Entre código y código, siempre hay un poquito de ti.
         </div>
-
       </div>
-
       <div class="base"></div>
-
     </section>
-
   </main>
-
   <!-- Ventana del mensaje, imagen o GIF -->
-
   <div
     id="modal"
     class="modal"
     aria-hidden="true"
   >
-
     <section class="tarjeta-mensaje">
-
       <button
         id="cerrarX"
         class="cerrar-x"
@@ -172,19 +120,14 @@
       >
         ×
       </button>
-
       <p class="titulo-mensaje">
         FELIZ CUMPLEAÑOS MI AMOR🎂
       </p>
-
       <!-- Aquí aparecerá el mensaje -->
-
       <p id="mensaje" class="mensaje">
         Eres una persona muy especial para mi.
       </p>
-
       <!-- Aquí aparecerá la imagen o el GIF -->
-
       <img
         id="imagenPremio"
         class="imagen-premio"
@@ -192,7 +135,6 @@
         alt="Sorpresa especial"
         hidden
       >
-
       <button
         id="cerrarMensaje"
         class="boton-cerrar"
@@ -200,13 +142,8 @@
       >
         Cerrar
       </button>
-
     </section>
-
   </div>
-
   <script src="script.js"></script>
-
 </body>
-
 </html>
